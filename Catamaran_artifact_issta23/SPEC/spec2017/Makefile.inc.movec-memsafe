@@ -1,0 +1,36 @@
+DIRS-movec-memsafe := $(sort $(patsubst ./%/movec-memsafe,%/,$(shell find . -name movec-memsafe)))
+
+OUTPUTS-movec-memsafe := $(patsubst %/, %/output-movec-memsafe, $(DIRS-movec-memsafe))
+TESTS-movec-memsafe  := $(patsubst %/, %/test-movec-memsafe,  $(DIRS-movec-memsafe))
+REFRATES-movec-memsafe  := $(patsubst %/, %/refrate-movec-memsafe,  $(DIRS-movec-memsafe))
+CLEANS-movec-memsafe  := $(patsubst %/, %/clean-movec-memsafe,  $(DIRS-movec-memsafe))
+
+.PHONY: output-movec-memsafe test-movec-memsafe $(TESTS-movec-memsafe) refrate-movec-memsafe $(REFRATES-movec-memsafe) clean-movec-memsafe $(CLEANS-movec-memsafe)
+
+ifneq ($(REOUTPUT),)
+.PHONY: $(OUTPUTS-movec-memsafe)
+endif
+
+output-movec-memsafe: $(OUTPUTS-movec-memsafe)
+
+$(OUTPUTS-movec-memsafe): %/output-movec-memsafe: %/movec-memsafe
+	@$(MAKE) -C $<
+
+test-movec-memsafe: $(TESTS-movec-memsafe)
+
+$(TESTS-movec-memsafe): %/test-movec-memsafe: %/output-movec-memsafe
+	@echo ""
+	@echo "Running" $(patsubst %/test-movec-memsafe, %, $@) "on test ..."
+	@$(MAKE) -C $(patsubst %/test-movec-memsafe, %/movec-memsafe, $@) test --no-print-directory
+
+refrate-movec-memsafe: $(REFRATES-movec-memsafe)
+
+$(REFRATES-movec-memsafe): %/refrate-movec-memsafe: %/output-movec-memsafe
+	@echo ""
+	@echo "Running" $(patsubst %/refrate-movec-memsafe, %, $@) "on refrate ..."
+	@$(MAKE) -C $(patsubst %/refrate-movec-memsafe, %/movec-memsafe, $@) refrate --no-print-directory
+
+clean-movec-memsafe: $(CLEANS-movec-memsafe)
+
+$(CLEANS-movec-memsafe): %/clean-movec-memsafe: %/movec-memsafe
+	@$(MAKE) -C $< clean

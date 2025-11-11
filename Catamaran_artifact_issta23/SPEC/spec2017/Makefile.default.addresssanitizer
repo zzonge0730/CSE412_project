@@ -1,0 +1,71 @@
+# The make command can set the following variables, e.g., make "VAR=val".
+# ASAN_OPTS: options appended to the tool command.
+# ASAN_ENV: options used in the environment variable ASAN_OPTIONS.
+
+# The parent Makefile can set the following variables:
+# COPY_MAKEFILES: the command for copying makefiles.
+#   It can be omitted if you use the default command.
+# COPY_MORE_MAKEFILES: the additional command for copying makefiles.
+#
+# ERROR_FILES: the names of the files that contain reported errors.
+#   You can use RUNTYPE in file names to match the run type, e.g., test and refrate.
+
+# Set the path and options of the tools
+ASAN := wrapper -fsanitize=address -mllvm -asan-instrumentation-with-call-threshold=0 $(ASAN_OPTS)
+ASAN_ENV := detect_leaks=false
+INPUT__DIR := ../src
+OUTPUT_DIR := ../output-addresssanitizer
+
+COPY := cp
+RMRF := rm -rf
+COPY_MAKEFILES ?= $(COPY) ../src_makefiles/Makefile.spec $(OUTPUT_DIR)/Makefile.spec
+
+.PHONY: build clean
+
+build: $(OUTPUT_DIR)
+	export INSTRU_TOOL="$(ASAN)"; $(MAKE) -C $(OUTPUT_DIR)
+	@echo "***Successfully built the benchmark."
+
+$(OUTPUT_DIR): $(INPUT__DIR)
+	$(RMRF) $(OUTPUT_DIR)
+	$(COPY) -ar $(INPUT__DIR) $(OUTPUT_DIR)
+	$(COPY_MAKEFILES)
+	$(COPY_MORE_MAKEFILES)
+
+clean:
+	$(RMRF) $(OUTPUT_DIR)
+
+# Count the reported errors
+test:
+	@if [ -z "$${BENCHMARK_RUN_TIMES}" ]; then \
+	     export BENCHMARK_COUNT_DOWN=1; \
+	 else \
+	     export BENCHMARK_COUNT_DOWN="$${BENCHMARK_RUN_TIMES}"; \
+	     echo "==== Run $${BENCHMARK_RUN_TIMES} times ===="; \
+	 fi; \
+	 cd $(OUTPUT_DIR); \
+	 while [ $${BENCHMARK_COUNT_DOWN} -ge 1 ]; do \
+	     export ASAN_OPTIONS="$(ASAN_ENV)"; \
+	     ./run_test.sh; \
+	     export BENCHMARK_COUNT_DOWN=`expr $${BENCHMARK_COUNT_DOWN} - 1`; \
+	 done;
+ifneq ($(ERROR_FILES)$(ERROR_FILES_test),)
+	@../../grep_reported_errors.addresssanitizer.sh $(patsubst %,$(OUTPUT_DIR)/%,$(subst RUNTYPE,test,$(ERROR_FILES) $(ERROR_FILES_test)))
+endif
+
+refrate:
+	@if [ -z "$${BENCHMARK_RUN_TIMES}" ]; then \
+	     export BENCHMARK_COUNT_DOWN=1; \
+	 else \
+	     export BENCHMARK_COUNT_DOWN="$${BENCHMARK_RUN_TIMES}"; \
+	     echo "==== Run $${BENCHMARK_RUN_TIMES} times ===="; \
+	 fi; \
+	 cd $(OUTPUT_DIR); \
+	 while [ $${BENCHMARK_COUNT_DOWN} -ge 1 ]; do \
+	     export ASAN_OPTIONS="$(ASAN_ENV)"; \
+	     ./run_refrate.sh; \
+	     export BENCHMARK_COUNT_DOWN=`expr $${BENCHMARK_COUNT_DOWN} - 1`; \
+	 done;
+ifneq ($(ERROR_FILES)$(ERROR_FILES_refrate),)
+	@../../grep_reported_errors.addresssanitizer.sh $(patsubst %,$(OUTPUT_DIR)/%,$(subst RUNTYPE,refrate,$(ERROR_FILES) $(ERROR_FILES_refrate)))
+endif

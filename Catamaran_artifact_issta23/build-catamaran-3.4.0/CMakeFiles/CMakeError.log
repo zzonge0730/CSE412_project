@@ -1,0 +1,410 @@
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9a7c/fast && /usr/bin/make -f CMakeFiles/cmTC_d9a7c.dir/build.make CMakeFiles/cmTC_d9a7c.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9a7c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_d9a7c.dir/CheckIncludeFile.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d9a7c.dir/build.make:66: CMakeFiles/cmTC_d9a7c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d9a7c/fast] Error 2
+
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf8e0/fast && /usr/bin/make -f CMakeFiles/cmTC_cf8e0.dir/build.make CMakeFiles/cmTC_cf8e0.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf8e0.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_cf8e0.dir/CheckIncludeFile.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+          ^~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_cf8e0.dir/build.make:66: CMakeFiles/cmTC_cf8e0.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cf8e0/fast] Error 2
+
+
+
+Determining if the include file sanitizer/msan_interface.h exists failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e80bd/fast && /usr/bin/make -f CMakeFiles/cmTC_e80bd.dir/build.make CMakeFiles/cmTC_e80bd.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e80bd.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_e80bd.dir/CheckIncludeFile.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sanitizer/msan_interface.h: No such file or directory
+ #include <sanitizer/msan_interface.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e80bd.dir/build.make:66: CMakeFiles/cmTC_e80bd.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e80bd/fast] Error 2
+
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0f64a/fast && /usr/bin/make -f CMakeFiles/cmTC_0f64a.dir/build.make CMakeFiles/cmTC_0f64a.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f64a.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_0f64a.dir/CheckIncludeFile.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_0f64a.dir/build.make:66: CMakeFiles/cmTC_0f64a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0f64a/fast] Error 2
+
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e25c5/fast && /usr/bin/make -f CMakeFiles/cmTC_e25c5.dir/build.make CMakeFiles/cmTC_e25c5.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e25c5.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_e25c5.dir/CheckIncludeFile.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: valgrind/valgrind.h: No such file or directory
+ #include <valgrind/valgrind.h>
+          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e25c5.dir/build.make:66: CMakeFiles/cmTC_e25c5.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e25c5/fast] Error 2
+
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7b38/fast && /usr/bin/make -f CMakeFiles/cmTC_d7b38.dir/build.make CMakeFiles/cmTC_d7b38.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7b38.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_d7b38.dir/CheckIncludeFile.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: mach/mach.h: No such file or directory
+ #include <mach/mach.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d7b38.dir/build.make:66: CMakeFiles/cmTC_d7b38.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d7b38/fast] Error 2
+
+
+
+Determining if the include file mach-o/dyld.h exists failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_372d5/fast && /usr/bin/make -f CMakeFiles/cmTC_372d5.dir/build.make CMakeFiles/cmTC_372d5.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_372d5.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_372d5.dir/CheckIncludeFile.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: mach-o/dyld.h: No such file or directory
+ #include <mach-o/dyld.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_372d5.dir/build.make:66: CMakeFiles/cmTC_372d5.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_372d5/fast] Error 2
+
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_423e3/fast && /usr/bin/make -f CMakeFiles/cmTC_423e3.dir/build.make CMakeFiles/cmTC_423e3.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_423e3.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_423e3.dir/CheckSymbolExists.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'arc4random' undeclared (first use in this function); did you mean 'srandom'?
+   return ((int*)(&arc4random))[argc];
+                   ^~~~~~~~~~
+                   srandom
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_423e3.dir/build.make:66: CMakeFiles/cmTC_423e3.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_423e3/fast] Error 2
+
+
+File /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isinf exist failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_24238/fast && /usr/bin/make -f CMakeFiles/cmTC_24238.dir/build.make CMakeFiles/cmTC_24238.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24238.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_24238.dir/CheckSymbolExists.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: cmath: No such file or directory
+ #include <cmath>
+          ^~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_24238.dir/build.make:66: CMakeFiles/cmTC_24238.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_24238/fast] Error 2
+
+
+File /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the finite exist failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f48d/fast && /usr/bin/make -f CMakeFiles/cmTC_1f48d.dir/build.make CMakeFiles/cmTC_1f48d.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f48d.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_1f48d.dir/CheckSymbolExists.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1f48d.dir/build.make:66: CMakeFiles/cmTC_1f48d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1f48d/fast] Error 2
+
+
+File /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ieeefp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finite
+  return ((int*)(&finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isnan exist failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_73378/fast && /usr/bin/make -f CMakeFiles/cmTC_73378.dir/build.make CMakeFiles/cmTC_73378.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73378.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_73378.dir/CheckSymbolExists.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: cmath: No such file or directory
+ #include <cmath>
+          ^~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_73378.dir/build.make:66: CMakeFiles/cmTC_73378.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_73378/fast] Error 2
+
+
+File /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp10 exist failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c042/fast && /usr/bin/make -f CMakeFiles/cmTC_1c042.dir/build.make CMakeFiles/cmTC_1c042.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c042.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_1c042.dir/CheckSymbolExists.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'exp10' undeclared (first use in this function); did you mean 'exp2l'?
+   return ((int*)(&exp10))[argc];
+                   ^~~~~
+                   exp2l
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_1c042.dir/build.make:66: CMakeFiles/cmTC_1c042.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1c042/fast] Error 2
+
+
+File /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp10
+  return ((int*)(&exp10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0bde/fast && /usr/bin/make -f CMakeFiles/cmTC_d0bde.dir/build.make CMakeFiles/cmTC_d0bde.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0bde.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_d0bde.dir/CheckSymbolExists.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d0bde.dir/build.make:66: CMakeFiles/cmTC_d0bde.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d0bde/fast] Error 2
+
+
+File /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ddc0f/fast && /usr/bin/make -f CMakeFiles/cmTC_ddc0f.dir/build.make CMakeFiles/cmTC_ddc0f.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddc0f.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_ddc0f.dir/CheckSymbolExists.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'strerror_s' undeclared (first use in this function); did you mean 'strerror_l'?
+   return ((int*)(&strerror_s))[argc];
+                   ^~~~~~~~~~
+                   strerror_l
+/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_ddc0f.dir/build.make:66: CMakeFiles/cmTC_ddc0f.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ddc0f/fast] Error 2
+
+
+File /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62477/fast && /usr/bin/make -f CMakeFiles/cmTC_62477.dir/build.make CMakeFiles/cmTC_62477.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62477.dir/src.cxx.o
+/usr/bin/g++-7    -std=c++11 -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_62477.dir/src.cxx.o -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/src.cxx
+g++-7: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+make[1]: *** [CMakeFiles/cmTC_62477.dir/build.make:66: CMakeFiles/cmTC_62477.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_62477/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5cd3c/fast && /usr/bin/make -f CMakeFiles/cmTC_5cd3c.dir/build.make CMakeFiles/cmTC_5cd3c.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cd3c.dir/src.c.o
+/usr/bin/gcc-7   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_5cd3c.dir/src.c.o   -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/src.c
+gcc-7: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+make[1]: *** [CMakeFiles/cmTC_5cd3c.dir/build.make:66: CMakeFiles/cmTC_5cd3c.dir/src.c.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5cd3c/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_GLINE_TABLES_ONLY_FLAG failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49a0d/fast && /usr/bin/make -f CMakeFiles/cmTC_49a0d.dir/build.make CMakeFiles/cmTC_49a0d.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49a0d.dir/src.cxx.o
+/usr/bin/g++-7    -std=c++11 -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -DSUPPORTS_GLINE_TABLES_ONLY_FLAG   -gline-tables-only -o CMakeFiles/cmTC_49a0d.dir/src.cxx.o -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/src.cxx
+g++-7: error: unrecognized debug output level 'line-tables-only'
+make[1]: *** [CMakeFiles/cmTC_49a0d.dir/build.make:66: CMakeFiles/cmTC_49a0d.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_49a0d/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_GLOBAL_CONSTRUCTORS_FLAG failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2196/fast && /usr/bin/make -f CMakeFiles/cmTC_f2196.dir/build.make CMakeFiles/cmTC_f2196.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2196.dir/src.cxx.o
+/usr/bin/g++-7    -std=c++11 -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -DSUPPORTS_GLOBAL_CONSTRUCTORS_FLAG   -Wglobal-constructors -o CMakeFiles/cmTC_f2196.dir/src.cxx.o -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/src.cxx
+g++-7: error: unrecognized command line option '-Wglobal-constructors'; did you mean '-felide-constructors'?
+make[1]: *** [CMakeFiles/cmTC_f2196.dir/build.make:66: CMakeFiles/cmTC_f2196.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f2196/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG failed with the following output:
+Change Dir: /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc5a8/fast && /usr/bin/make -f CMakeFiles/cmTC_dc5a8.dir/build.make CMakeFiles/cmTC_dc5a8.dir/build
+make[1]: Entering directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc5a8.dir/src.cxx.o
+/usr/bin/g++-7    -std=c++11 -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -fno-common -Woverloaded-virtual -Wcast-qual -fno-strict-aliasing -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG   -Werror -Wnested-anon-types -o CMakeFiles/cmTC_dc5a8.dir/src.cxx.o -c /workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp/src.cxx
+g++-7: error: unrecognized command line option '-Wnested-anon-types'; did you mean '-Wnested-externs'?
+make[1]: *** [CMakeFiles/cmTC_dc5a8.dir/build.make:66: CMakeFiles/cmTC_dc5a8.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/workspace/build-catamaran-3.4.0/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dc5a8/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

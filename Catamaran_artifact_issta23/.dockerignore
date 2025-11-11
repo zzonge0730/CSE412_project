@@ -1,0 +1,31 @@
+# Git
+.git
+.gitignore
+
+# Build dirs
+build*/
+*/build/
+*/Release+Asserts/
+*.o
+*.a
+*.so
+*.dylib
+*.lo
+*.la
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# SPEC artifacts
+SPEC/spec2006/build/
+SPEC/spec2017/build/
+
+
+

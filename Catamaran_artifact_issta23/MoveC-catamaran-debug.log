@@ -1,0 +1,832 @@
+Pass Arguments:  -targetlibinfo -datalayout -notti -basictti -x86tti -no-aa -basiccg -PDGAnalysis -LoopsMovec -preverify -domtree -verify
+Target Library Information
+Data Layout
+No target information
+Target independent code generator's TTI
+X86 Target Transform Info
+No Alias Analysis (always returns 'may' alias)
+  ModulePass Manager
+    CallGraph Construction
+    Computing the Program Dependence Graph
+      Unnamed pass: implement Pass::getPassName()
+    Find and Get Loops in the program for Movec
+      Unnamed pass: implement Pass::getPassName()
+    FunctionPass Manager
+      Preliminary module verification
+      Dominator Tree Construction
+      Module Verifier
+    Bitcode Writer
+Pass Arguments:  -postdomtree -domtree -loops
+  FunctionPass Manager
+    Post-Dominator Tree Construction
+    Dominator Tree Construction
+    Natural Loop Information
+Pass Arguments:  -targetlibinfo -postdomtree -domtree -loops -scalar-evolution
+Target Library Information
+  FunctionPass Manager
+    Post-Dominator Tree Construction
+    Dominator Tree Construction
+    Natural Loop Information
+    Scalar Evolution Analysis
+Initialization...
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+pdgValue use is empty...
+---after-getT---226
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+---PDGAnalysis 181---
+---PDGAnalysis 184---
+---getT---180
+---after-getT---180
+---after-getT---222
+---after-getT---226
+0  opt          0x0000648ce87aa479 llvm::sys::PrintStackTrace(_IO_FILE*) + 57
+1  opt          0x0000648ce87aa214
+2  libc.so.6    0x0000756e7d842520
+3  opt          0x0000648ce86c0250 llvm::Value::getNumUses() const + 16
+4  libCMPass.so 0x0000756e7dbc697d PDGAnalysis::constructEdgesFromUseDefs(PDG*) + 237
+5  libCMPass.so 0x0000756e7dbc9472 PDGAnalysis::constructPDGFromAnalysis(llvm::Module&) + 50
+6  libCMPass.so 0x0000756e7dbc94bd PDGAnalysis::getPDG() + 29
+7  libCMPass.so 0x0000756e7dbc9545 PDGAnalysis::runOnModule(llvm::Module&) + 117
+8  opt          0x0000648ce86aa7ac llvm::legacy::PassManagerImpl::run(llvm::Module&) + 764
+9  opt          0x0000648ce7e160e2 main + 2626
+10 libc.so.6    0x0000756e7d829d90
+11 libc.so.6    0x0000756e7d829e40 __libc_start_main + 128
+12 opt          0x0000648ce7e27cc5 _start + 37
+Stack dump:
+0.	Program arguments: ./build-catamaran-3.4.0/bin/opt -load ./build-catamaran-3.4.0/lib/libCMPass.so -debug-pass=Structure -movec -PDGAnalysis -catamaran-pdg-reaching-analysis -LoopsMovec -o CM-MoveC-2mm.bc 
+1.	Running pass 'Computing the Program Dependence Graph' on module '<stdin>'.

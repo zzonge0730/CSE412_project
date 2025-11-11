@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "../../libCMPass.pdb"
+  "../../libCMPass.so"
+  "CMakeFiles/CMPass.dir/AccumulatorOpInfo.cpp.o"
+  "CMakeFiles/CMPass.dir/BitMatrix.cpp.o"
+  "CMakeFiles/CMPass.dir/DOALLTask.cpp.o"
+  "CMakeFiles/CMPass.dir/DataFlowAnalysis.cpp.o"
+  "CMakeFiles/CMPass.dir/DataFlowEngine.cpp.o"
+  "CMakeFiles/CMPass.dir/DataFlowResult.cpp.o"
+  "CMakeFiles/CMPass.dir/DominatorSummary.cpp.o"
+  "CMakeFiles/CMPass.dir/EnvBuilder.cpp.o"
+  "CMakeFiles/CMPass.dir/IVStepperUtility.cpp.o"
+  "CMakeFiles/CMPass.dir/InductionVariables.cpp.o"
+  "CMakeFiles/CMPass.dir/InterTask.cpp.o"
+  "CMakeFiles/CMPass.dir/InvariantManager.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopCarriedDependencies.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopDependenceInfo.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopEnvironment.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopFreeTask.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopGoverningIVAttribution.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopIterationDomainSpaceAnalysis.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopStructure.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopSummary.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopVariables.cpp.o"
+  "CMakeFiles/CMPass.dir/Loops.cpp.o"
+  "CMakeFiles/CMPass.dir/LoopsMovec.cpp.o"
+  "CMakeFiles/CMPass.dir/MemoryCloningAnalysis.cpp.o"
+  "CMakeFiles/CMPass.dir/PDG.cpp.o"
+  "CMakeFiles/CMPass.dir/PDGAnalysis.cpp.o"
+  "CMakeFiles/CMPass.dir/SCC.cpp.o"
+  "CMakeFiles/CMPass.dir/SCCAttrs.cpp.o"
+  "CMakeFiles/CMPass.dir/SCCDAG.cpp.o"
+  "CMakeFiles/CMPass.dir/SCCDAGAttrs.cpp.o"
+  "CMakeFiles/CMPass.dir/ScalarEvolutionDelinearization.cpp.o"
+  "CMakeFiles/CMPass.dir/ScalarEvolutionReferencer.cpp.o"
+  "CMakeFiles/CMPass.dir/StayConnectedNestedLoopForest.cpp.o"
+  "CMakeFiles/CMPass.dir/Utils.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/CMPass.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
