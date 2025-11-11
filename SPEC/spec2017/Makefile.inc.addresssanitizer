@@ -1,0 +1,36 @@
+DIRS-addresssanitizer := $(sort $(patsubst ./%/addresssanitizer,%/,$(shell find . -name addresssanitizer)))
+
+OUTPUTS-addresssanitizer := $(patsubst %/, %/output-addresssanitizer, $(DIRS-addresssanitizer))
+TESTS-addresssanitizer  := $(patsubst %/, %/test-addresssanitizer,  $(DIRS-addresssanitizer))
+REFRATES-addresssanitizer  := $(patsubst %/, %/refrate-addresssanitizer,  $(DIRS-addresssanitizer))
+CLEANS-addresssanitizer  := $(patsubst %/, %/clean-addresssanitizer,  $(DIRS-addresssanitizer))
+
+.PHONY: output-addresssanitizer test-addresssanitizer $(TESTS-addresssanitizer) refrate-addresssanitizer $(REFRATES-addresssanitizer) clean-addresssanitizer $(CLEANS-addresssanitizer)
+
+ifneq ($(REOUTPUT),)
+.PHONY: $(OUTPUTS-addresssanitizer)
+endif
+
+output-addresssanitizer: $(OUTPUTS-addresssanitizer)
+
+$(OUTPUTS-addresssanitizer): %/output-addresssanitizer: %/addresssanitizer
+	@$(MAKE) -C $<
+
+test-addresssanitizer: $(TESTS-addresssanitizer)
+
+$(TESTS-addresssanitizer): %/test-addresssanitizer: %/output-addresssanitizer
+	@echo ""
+	@echo "Running" $(patsubst %/test-addresssanitizer, %, $@) "on test ..."
+	@$(MAKE) -C $(patsubst %/test-addresssanitizer, %/addresssanitizer, $@) test --no-print-directory
+
+refrate-addresssanitizer: $(REFRATES-addresssanitizer)
+
+$(REFRATES-addresssanitizer): %/refrate-addresssanitizer: %/output-addresssanitizer
+	@echo ""
+	@echo "Running" $(patsubst %/refrate-addresssanitizer, %, $@) "on refrate ..."
+	@$(MAKE) -C $(patsubst %/refrate-addresssanitizer, %/addresssanitizer, $@) refrate --no-print-directory
+
+clean-addresssanitizer: $(CLEANS-addresssanitizer)
+
+$(CLEANS-addresssanitizer): %/clean-addresssanitizer: %/addresssanitizer
+	@$(MAKE) -C $< clean

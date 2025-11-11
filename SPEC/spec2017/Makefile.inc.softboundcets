@@ -1,0 +1,39 @@
+DIRS-softboundcets := $(sort $(patsubst ./%/softboundcets,%/,$(shell find . -name softboundcets)))
+
+OUTPUTS-softboundcets := $(patsubst %/, %/output-softboundcets, $(DIRS-softboundcets))
+TESTS-softboundcets  := $(patsubst %/, %/test-softboundcets,  $(DIRS-softboundcets))
+REFRATES-softboundcets  := $(patsubst %/, %/refrate-softboundcets,  $(DIRS-softboundcets))
+CLEANS-softboundcets  := $(patsubst %/, %/clean-softboundcets,  $(DIRS-softboundcets))
+
+.PHONY: output-softboundcets test-softboundcets $(TESTS-softboundcets) refrate-softboundcets $(REFRATES-softboundcets) clean-softboundcets $(CLEANS-softboundcets)
+
+IGNORE_DIRS-softboundcets := 500.perlbench_r/ 502.gcc_r/
+.IGNORE: $(patsubst %/, %/output-softboundcets, $(IGNORE_DIRS-softboundcets))
+
+ifneq ($(REOUTPUT),)
+.PHONY: $(OUTPUTS-softboundcets)
+endif
+
+output-softboundcets: $(OUTPUTS-softboundcets)
+
+$(OUTPUTS-softboundcets): %/output-softboundcets: %/softboundcets
+	@$(MAKE) -C $<
+
+test-softboundcets: $(TESTS-softboundcets)
+
+$(TESTS-softboundcets): %/test-softboundcets: %/output-softboundcets
+	@echo ""
+	@echo "Running" $(patsubst %/test-softboundcets, %, $@) "on test ..."
+	@$(MAKE) -C $(patsubst %/test-softboundcets, %/softboundcets, $@) test --no-print-directory
+
+refrate-softboundcets: $(REFRATES-softboundcets)
+
+$(REFRATES-softboundcets): %/refrate-softboundcets: %/output-softboundcets
+	@echo ""
+	@echo "Running" $(patsubst %/refrate-softboundcets, %, $@) "on refrate ..."
+	@$(MAKE) -C $(patsubst %/refrate-softboundcets, %/softboundcets, $@) refrate --no-print-directory
+
+clean-softboundcets: $(CLEANS-softboundcets)
+
+$(CLEANS-softboundcets): %/clean-softboundcets: %/softboundcets
+	@$(MAKE) -C $< clean

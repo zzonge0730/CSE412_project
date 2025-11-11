@@ -1,0 +1,16 @@
+Initialization...
+0  opt          0x0000642b541d8479 llvm::sys::PrintStackTrace(_IO_FILE*) + 57
+1  opt          0x0000642b541d8214
+2  libc.so.6    0x0000783867c42520
+3  libCMPass.so 0x0000783867fc377b PDG::setEntryPointAt(llvm::Function&) + 11
+4  libCMPass.so 0x0000783867fc9467 PDGAnalysis::constructPDGFromAnalysis(llvm::Module&) + 39
+5  libCMPass.so 0x0000783867fc94bd PDGAnalysis::getPDG() + 29
+6  libCMPass.so 0x0000783867fc9545 PDGAnalysis::runOnModule(llvm::Module&) + 117
+7  opt          0x0000642b540d87ac llvm::legacy::PassManagerImpl::run(llvm::Module&) + 764
+8  opt          0x0000642b538440e2 main + 2626
+9  libc.so.6    0x0000783867c29d90
+10 libc.so.6    0x0000783867c29e40 __libc_start_main + 128
+11 opt          0x0000642b53855cc5 _start + 37
+Stack dump:
+0.	Program arguments: ./build-catamaran-3.4.0/bin/opt -load ./build-catamaran-3.4.0/lib/libCMPass.so -PDGAnalysis -o MoveC-pdg.bc 
+1.	Running pass 'Computing the Program Dependence Graph' on module '<stdin>'.
